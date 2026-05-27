@@ -43,8 +43,8 @@
 - H = Hit
 
 ## Object-Oriented Design (OOD)
-- [] Ship.java - racks the state of an individual ship.
-- [] Grid.java - Manages the $10 \times 10$ board state.
-- [] Player.java - Represents a player (can be extended for a human or a computer AI).
-- [] GameEngine.java - Controls the flow, rules, and state of the overall game.
-- [] App.java - The entry point of your application that simply instantiates the GameEngine and starts it.
+- [ ] Ship.java - racks the state of an individual ship.
+- [ ] Grid.java - Manages the $10 \times 10$ board state.
+- [ ] Player.java - Represents a player (can be extended for a human or a computer AI).
+- [ ] GameEngine.java - Controls the flow, rules, and state of the overall game.
+- [ ] App.java - The entry point of your application that simply instantiates the GameEngine and starts it.
