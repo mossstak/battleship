@@ -43,7 +43,8 @@
 - H = Hit
 
 ## Object-Oriented Design (OOD)
-- [ ] Ship.java - racks the state of an individual ship.
+- [x] ShipType.java - Create Enum for the Each Ship Type.
+- [x] Ship.java - racks the state of an individual ship.
 - [ ] Grid.java - Manages the $10 \times 10$ board state.
 - [ ] Player.java - Represents a player (can be extended for a human or a computer AI).
 - [ ] GameEngine.java - Controls the flow, rules, and state of the overall game.
