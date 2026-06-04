@@ -19,9 +19,11 @@ public class GameEngine {
 
     //Methods
     public void start() {
-        System.out.println("==========================");
-        System.out.println("  Welcome to Battleship! ");
-        System.out.println("==========================");
+        System.out.println("||===========================||");
+        System.out.println("||                           ||");
+        System.out.println("||   Welcome to Battleship!  ||");
+        System.out.println("||                           ||");
+        System.out.println("||===========================||");
 
         setupPhase();
         playLoop();
@@ -30,7 +32,8 @@ public class GameEngine {
     }
 
     private void setupPhase() {
-        System.out.println("\n--- FLEET PLACEMENT PHASE ---");
+        System.out.println("\n [--- FLEET PLACEMENT PHASE ---]");
+        System.out.print("\n");
         placeFleetsManually(player1);
 
         showTurnSwitchScreen(player2.getName());

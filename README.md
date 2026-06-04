@@ -49,3 +49,11 @@
 - [x] Player.java - Represents a player (can be extended for a human or a computer AI).
 - [x] GameEngine.java - Controls the flow, rules, and state of the overall game.
 - [x] App.java - The entry point of your application that simply instantiates the GameEngine and starts it.
+
+## Running This Code
+##### to run this project:
+<p>Open any choice of terminal, making sure you have java installed on your computer.</p>
+
+<p>In your terminal making sure its in the right directory, where you have saved this file but make sure you are in <strong>Battleship/src</strong> otherwise it will not run the application.</p>
+
+<p>Finally to run this application, type <strong>java App.java</strong></p>
