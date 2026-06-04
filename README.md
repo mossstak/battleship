@@ -32,7 +32,7 @@
 - Exception handling to catch invalid user inputs (e.g., entering "Z25" or a non-integer).
 
 ## The Basics: Core Logic & Mechanics
-### Before writing classes, understand how the data will be tracked in code:
+#### Before writing classes, understand how the data will be tracked in code:
 - The Grids: You will need two types of grids per player:
     1. Ocean Grid: Tracks where the player's own ships are placed and where the enemy has shot.
     2. Target Grid: Tracks the player's own shots fired at the enemy (tracking hits and misses).
@@ -45,7 +45,7 @@
 ## Object-Oriented Design (OOD)
 - [x] ShipType.java - Create Enum for the Each Ship Type.
 - [x] Ship.java - racks the state of an individual ship.
-- [ ] Grid.java - Manages the $10 \times 10$ board state.
-- [ ] Player.java - Represents a player (can be extended for a human or a computer AI).
-- [ ] GameEngine.java - Controls the flow, rules, and state of the overall game.
-- [ ] App.java - The entry point of your application that simply instantiates the GameEngine and starts it.
+- [x] Grid.java - Manages the $10 \times 10$ board state.
+- [x] Player.java - Represents a player (can be extended for a human or a computer AI).
+- [x] GameEngine.java - Controls the flow, rules, and state of the overall game.
+- [x] App.java - The entry point of your application that simply instantiates the GameEngine and starts it.
